@@ -1,36 +1,3 @@
-HTML CODE
-
-<div class="container"> 
- <h1>My Rating</h1>  
- <ol>
-    <li><a href="#" class="star1" onclick=" stars1()"><span class="fa-solid fa-star">
-    <li><a href="#" class="star2" onclick=" stars2()"><span class="fa-solid fa-star">
-    <li><a href="#" class="star3" onclick=" stars3()"><span class="fa-solid fa-star">
-    <li><a href="#" class="star4" onclick=" stars4()"><span class="fa-solid fa-star">
-     <li><a href="#" class="star5" onclick=" stars5()"><span class="fa-solid fa-star">
-
-    </span></a></li>
- </ol>
-
-<div class="msg">
-    <p class="p1">Very bad</p>
-    <p class="p2">Bad</p>
-    <p class="p3">Okay</p>
-    <p class="p4">Good</p>
-    <p class="p5">Excellent</p>
-</div>
-<div class="submitBtn">
-    <button onclick="submit()">Submit</button>
-</div>
-</div>
-<div class="success">
-    <h2>Thank you for rating us</h2>
-</div>
-
-
-
-JAVASCRIPT CODE
-
 const star1=document.querySelector(".star1");
 const star2=document.querySelector(".star2");
 const star3=document.querySelector(".star3");
@@ -49,7 +16,7 @@ const p5=document.querySelector(".p5");
 
 function stars1()
 {
-    star1.style.color="lightseagreen";
+    star1.style.color="yellow";
     star2.style.color="#b6b6b6";
     star3.style.color="#b6b6b6";
     star4.style.color="#b6b6b6";
@@ -59,15 +26,15 @@ function stars1()
     p3.style.display="none";
     p4.style.display="none";
     p5.style.display="none";
-    p1.style.color="lightseagreen";
+    p1.style.color="yellow";
     SubmitBtn.style.display="block";
     
 
 } 
 function stars2()
 {
-    star1.style.color="lightseagreen";
-    star2.style.color="lightseagreen";
+    star1.style.color="yellow";
+    star2.style.color="yellow";
     star3.style.color="#b6b6b6";
     star4.style.color="#b6b6b6";
     star5.style.color="#b6b6b6";
@@ -76,15 +43,15 @@ function stars2()
     p3.style.display="none";
     p4.style.display="none";
     p5.style.display="none";
-    p2.style.color="lightseagreen";
+    p2.style.color="yellow";
     SubmitBtn.style.display="block";
   
 }
 function stars3()
 {
-    star1.style.color="lightseagreen";
-    star2.style.color="lightseagreen";
-    star3.style.color="lightseagreen";
+    star1.style.color="yellow";
+    star2.style.color="yellow";
+    star3.style.color="yellow";
     star4.style.color="#b6b6b6";
     star5.style.color="#b6b6b6";
     p1.style.display="none";
@@ -92,39 +59,39 @@ function stars3()
     p3.style.display="block";
     p4.style.display="none";
     p5.style.display="none";
-    p3.style.color="lightseagreen";
+    p3.style.color="yellow";
     SubmitBtn.style.display="block";
    
 }
 function stars4()
 {
-    star1.style.color="lightseagreen";
-    star2.style.color="lightseagreen";
-    star3.style.color="lightseagreen";
-    star4.style.color="lightseagreen";
+    star1.style.color="yellow";
+    star2.style.color="yellow";
+    star3.style.color="yellow";
+    star4.style.color="yellow";
     star5.style.color="#b6b6b6";
     p1.style.display="none";
     p2.style.display="none";
     p3.style.display="none";
     p4.style.display="block";
     p5.style.display="none";
-    p4.style.color="lightseagreen";
+    p4.style.color="yellow";
     SubmitBtn.style.display="block";
     
 }
 function stars5()
 {
-    star1.style.color="lightseagreen";
-    star2.style.color="lightseagreen";
-    star3.style.color="lightseagreen";
-    star4.style.color="lightseagreen";
-    star5.style.color="lightseagreen";
+    star1.style.color="yellow";
+    star2.style.color="yellow";
+    star3.style.color="yellow";
+    star4.style.color="yellow";
+    star5.style.color="yellow";
     p1.style.display="none";
     p2.style.display="none";
     p3.style.display="none";
     p4.style.display="none";
     p5.style.display="block";
-    p5.style.color="lightseagreen";
+    p5.style.color="yellow";
     SubmitBtn.style.display="block";
    
 }

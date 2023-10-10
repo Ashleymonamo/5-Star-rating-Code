@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratings</title>
+    <link rel="stylesheet" href="ratings.css">
+</head>
+<body>
+    <div class="background">
+
+    </div>
+ <div class="container"> 
+ <h1>My Rating</h1>  
+ <ol>
+    <li><a href="#" class="star1" onclick=" stars1()"><span class="fa-solid fa-star">
+    <li><a href="#" class="star2" onclick=" stars2()"><span class="fa-solid fa-star">
+    <li><a href="#" class="star3" onclick=" stars3()"><span class="fa-solid fa-star">
+    <li><a href="#" class="star4" onclick=" stars4()"><span class="fa-solid fa-star">
+     <li><a href="#" class="star5" onclick=" stars5()"><span class="fa-solid fa-star">
+
+    </span></a></li>
+ </ol>
+
+<div class="msg">
+    <p class="p1">Fair</p>
+    <p class="p2">Good</p>
+    <p class="p3">Very Good</p>
+    <p class="p4">Excellent</p>
+    <p class="p5">Extraordinary</p>
+</div>
+<div class="submitBtn">
+    <button onclick="submit()">Submit</button>
+</div>
+</div>
+<div class="success">
+    <h2>Thank you for rating us</h2>
+</div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+ <script src="https://kit.fontawesome.com/aeb5aa9664.js" crossorigin="anonymous"></script>
+ <script type="text/javascript">
+ $('.main-carousel').flickity({
+   // options
+   cellAlign: 'left',
+   contain:true,
+   wrapAround:true,
+   freeScroll:true,
+   autoPlay:true
+ });
+ </script>
+ <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script src="rating.js"></script>
+</body>
+</html>
